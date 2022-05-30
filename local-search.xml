@@ -4,6 +4,19 @@
   
   
   <entry>
+    <title>测试博客</title>
+    <link href="/2022/05/30/test/"/>
+    <url>/2022/05/30/test/</url>
+    
+    <content type="html"><![CDATA[<h1 id="线性模型"><a href="#线性模型" class="headerlink" title="线性模型"></a>线性模型</h1><h2 id="Training-Loss-Error"><a href="#Training-Loss-Error" class="headerlink" title="Training Loss(Error)"></a>Training Loss(Error)</h2><p>针对某一个样本而言的误差</p><p>计算公式：<br>$$<br>loss &#x3D; (\hat{y} - y)^2<br>$$</p><h2 id="Mean-Square-Error-MSE"><a href="#Mean-Square-Error-MSE" class="headerlink" title="Mean Square Error(MSE)"></a>Mean Square Error(MSE)</h2><p>针对整个training set而言的损失</p><p>计算公式：<br>$$<br>cost &#x3D; \frac{1}{N}\sum_{n&#x3D;1}^{N}{(\hat{y_n} - y_n)^2}<br>$$<br>神经网络中的超参数：网络参数、优化参数、正则化参数</p><p><strong>网络参数</strong>：可指网络 层与层之间的交互方式（相加、相乘或者串接）、卷积核数量和卷积核尺寸、网络层数（深度）和激活函数</p><p><strong>优化参数</strong>：指学习率（learning rate)、批样本数量（batch size）、不同优化器的参数以及部分损失函数的可调参数</p><p><strong>正则化</strong>：权重衰减系数、丢弃法比率（dropout）</p><p>可视化训练：Visdom</p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>Hello World</title>
     <link href="/2022/05/30/hello-world/"/>
     <url>/2022/05/30/hello-world/</url>
